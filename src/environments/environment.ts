@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyAripVobYJuc-04njpjTZGj1HwfdvT2zNA',
+    authDomain: 'angular-grid-dashboard.firebaseapp.com',
+    databaseURL: 'https://angular-grid-dashboard.firebaseio.com',
+    projectId: 'angular-grid-dashboard',
+    storageBucket: '',
+    messagingSenderId: '925472122263'
+  }
 };
 
 /*
