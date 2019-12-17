@@ -38,7 +38,9 @@
               "node_modules/semantic-ui-button/button.min.css",
               "node_modules/semantic-ui-container/container.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/particles.js"
+            ]
           },
           "configurations": {
             "production": {
