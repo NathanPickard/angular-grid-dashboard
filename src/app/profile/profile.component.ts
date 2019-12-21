@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { ActivatedRoute } from '@angular/router';
 import { AngularFirestoreDocument, AngularFirestore } from '@angular/fire/firestore';
@@ -7,7 +8,6 @@ import { AngularFireStorage } from '@angular/fire/storage';
 import { Observable } from 'rxjs';
 
 import { UserProfile } from '../core/user-profile.model';
-import { NgForm } from '@angular/forms';
 import { AuthService } from '../core/auth.service';
 import { finalize } from 'rxjs/operators';
 

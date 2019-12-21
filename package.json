@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~8.2.11",
     "@angular/router": "~8.2.11",
     "firebase": "^7.6.0",
+    "firebase-admin": "^8.9.0",
     "rxjs": "~6.4.0",
     "semantic-ui-button": "^2.3.2",
     "semantic-ui-card": "^2.3.1",
