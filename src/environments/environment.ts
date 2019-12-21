@@ -9,7 +9,7 @@ export const environment = {
     authDomain: 'angular-grid-dashboard.firebaseapp.com',
     databaseURL: 'https://angular-grid-dashboard.firebaseio.com',
     projectId: 'angular-grid-dashboard',
-    storageBucket: '',
+    storageBucket: 'angular-grid-dashboard.appspot.com',
     messagingSenderId: '925472122263'
   }
 };
