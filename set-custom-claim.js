@@ -8,7 +8,7 @@ admin.initializeApp({
   databaseURL: "https://angular-grid-dashboard.firebaseio.com"
 });
 
-admin.auth().setCustomUserClaims(uid, { admin: true})
+admin.auth().setCustomUserClaims(uid, { admin: true })
   .then(() => {
     console.log('custom claims set for user', uid);
     process.exit();
