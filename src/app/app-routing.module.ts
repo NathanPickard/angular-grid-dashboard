@@ -23,7 +23,7 @@ const adminOnly = () => pipe(
   map(claims => claims.admin === true || [''])
 );
 
-const redirectLoggedInToProfileOrUsers = () => {
+const redirectLoggedInToProfileOrUsers = () =>
   pipe(
     customClaims,
     map(claims => {
@@ -42,7 +42,6 @@ const redirectLoggedInToProfileOrUsers = () => {
       return ['profile', claims.user_id]
     })
   )
-}
 
 const routes: Routes = [
   {

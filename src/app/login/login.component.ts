@@ -39,7 +39,7 @@ export class LoginComponent implements OnInit {
       }
 
       const uid = resp.user.uid;
-      this.router.navigate([`/profile/${uid}`]);
+      this.auth.routeOnLogin();
     } catch (error) {
       console.log(error.message);
       this.error = error.message;
